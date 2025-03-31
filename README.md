@@ -20,7 +20,7 @@ We implemented and compared two forecasting techniques:
 1️⃣ SARIMA (Seasonal ARIMA) → Captures seasonal patterns
 2️⃣ Holt-Winters Exponential Smoothing → Best for trending & seasonal data
 
-📌 4️⃣ Installation & Requirements
+4️⃣ Installation & Requirements
 Run the following command to install dependencies:
 pip install pandas numpy matplotlib seaborn statsmodels pmdarima scikit-learn
 Required Libraries:
@@ -33,7 +33,7 @@ from statsmodels.tsa.holtwinters import ExponentialSmoothing
 from pmdarima import auto_arima
 from sklearn.metrics import mean_absolute_error, mean_squared_error
 
-📌 5️⃣ How to Run the Code
+5️⃣ How to Run the Code
 Step 1: Load the Dataset
 Modify FINAL_DATASET.csv in pd.read_csv():
 df = pd.read_csv("FINAL_DATASET.csv", parse_dates=["Order Date"], dayfirst=True)
