@@ -16,9 +16,9 @@ Month, Year → Extracted from Order Date
 Category, Sub-Category, Region → Sales Segmentation
 
 3️⃣ Models Used
-We implemented and compared two forecasting techniques:
-1️⃣ SARIMA (Seasonal ARIMA) → Captures seasonal patterns
-2️⃣ Holt-Winters Exponential Smoothing → Best for trending & seasonal data
+We implemented and compared two forecasting techniques:  
+1️⃣ SARIMA (Seasonal ARIMA) → Captures seasonal patterns  
+2️⃣ Holt-Winters Exponential Smoothing → Best for trending & seasonal data  
 
 4️⃣ Installation & Requirements
 Run the following command to install dependencies:
